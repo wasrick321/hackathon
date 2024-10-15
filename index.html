@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Shelters for Abandoned Animals</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .button-donate {
+            background-color: #c87a7a;
+            color: white;
+            border: none;
+            padding: 20px;
+            border-radius: 40px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button-donate:hover {
+            background-color: #a05e5e;
+        }
+        .mail-bottom {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgb(152, 58, 89);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .mail-bottom:hover {
+            background: rgb(130, 45, 72);
+        }
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Finding Forever Friends with StrayVoices</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#animals">Animals</a>
+            <a href="#list-stray">List a Stray</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to StrayVoices</h1>
+        <p>Creating an intuitive and accessible website dedicated to helping abandoned animals find safe places for themselves. The platform will serve as a bridge between animals in need, shelters, and adopters, providing comprehensive profiles to ensure that every animal finds a loving and secure home.</p>
+    </section>
+
+    <section id="animals">
+        <h2>Up for Adoption</h2>
+        <div class="animal-list" id="animal-list">
+      
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to helping street animals find their forever homes. The website also offers resources, volunteer opportunities, and community engagement to foster a compassionate network dedicated to animal welfare.</p>
+        <p>The animal rescue centers are often packed with animals who are ill or need special attention. So, we have proposed an idea for listing animals on a website in order to help them get a new home.</p>
+        <a href="https://drive.google.com/file/d/1KDo7_pvmQK1PFA0miDkdzdor4-XkomlI/view" class="button-donate">DONATE</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <a class="mail-bottom" href="mailto:strayvoices2024@gmail.com">Mail Us!</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 StrayVoices, contact us at +91-1548625937 / +91-8698005298</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

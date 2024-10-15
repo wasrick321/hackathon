@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+header {
+    background-color: #c87a7a;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.animal-card {
+    border: 1px solid #a05e5e;
+    border-radius: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    overflow: hidden; /* Ensures that the image doesn't overflow the card */
+}
+
+.animal-card img {
+    border-radius: 10px; /* Rounded corners for the image */
+    width: 100%; /* Ensures the image fits the width of its container */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Optional: Ensures the image covers the container without distortion */
+}
+
+footer {
+    background-color: #e6b8b8;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
